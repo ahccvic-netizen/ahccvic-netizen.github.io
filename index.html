@@ -3,19 +3,52 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>CricStreamr</title>
+<title>CricStreamr — Live cricket streaming for Avondale Heights Cricket Club</title>
+<meta name="description" content="CricStreamr is an iPhone app that live-streams Avondale Heights Cricket Club matches to YouTube with a live scoreboard overlay.">
 <style>
-  body { font-family: -apple-system, system-ui, sans-serif; max-width: 680px; margin: 40px auto; padding: 0 16px; line-height: 1.6; color: #1c2a21; background: #f6f8f6; }
-  h1 { color: #2f7d37; margin-bottom: 4px; }
+  body { font-family: -apple-system, system-ui, sans-serif; max-width: 720px; margin: 40px auto; padding: 0 16px; line-height: 1.6; color: #1c2a21; background: #f6f8f6; }
+  h1 { color: #2f7d37; margin-bottom: 0; }
+  .tag { margin-top: 4px; color: #5b6b60; font-size: 1.05em; }
+  h2 { font-size: 1.15em; margin-top: 32px; color: #24342a; }
   a { color: #2f7d37; }
-  footer { margin-top: 48px; font-size: 14px; color: #5b6b60; }
+  table { border-collapse: collapse; width: 100%; font-size: 0.95em; }
+  th, td { text-align: left; padding: 8px; border-bottom: 1px solid #d5ddd7; vertical-align: top; }
+  footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid #d5ddd7; font-size: 14px; color: #5b6b60; }
 </style>
 </head>
 <body>
   <h1>CricStreamr</h1>
-  <p>CricStreamr is an iPhone app built by Avondale Heights Cricket Club (AHCC) to live-stream local club cricket to YouTube, with a live scoreboard overlay drawn from Play Cricket.</p>
-  <p>The app uses the YouTube Data API to create and manage live broadcasts on the club's YouTube channel, or on a volunteer's own channel if they choose to sign in.</p>
-  <p>Questions: <a href="mailto:ahccvic@gmail.com">ahccvic@gmail.com</a></p>
-  <footer><a href="privacy.html">Privacy Policy</a></footer>
-</body>
-</html>
+  <p class="tag">Live cricket streaming for Avondale Heights Cricket Club</p>
+
+  <h2>What CricStreamr is</h2>
+  <p>CricStreamr is an iPhone app made by Avondale Heights Cricket Club (AHCC) in Melbourne, Australia. Club volunteers use it to film local club cricket matches and broadcast them live on YouTube so players, families and supporters can watch from anywhere.</p>
+
+  <h2>Features</h2>
+  <ul>
+    <li><strong>Live streaming to YouTube</strong> from the iPhone camera and microphone, in 720p or 1080p.</li>
+    <li><strong>Live scoreboard overlay</strong> showing score, overs, batters, bowler and the current over, using public match data from Play Cricket.</li>
+    <li><strong>One-tap Go Live</strong> — the app creates the YouTube live broadcast, starts it, and ends it when the match finishes.</li>
+    <li><strong>Sponsor logos</strong> displayed on the stream for club sponsors.</li>
+    <li><strong>Highlights</strong> — fours, sixes and wickets are logged as YouTube chapters and can be saved as short highlight clips.</li>
+  </ul>
+
+  <h2>How CricStreamr uses Google user data</h2>
+  <p>CricStreamr asks for access to a YouTube account only so it can broadcast and publish the club's match videos on that account. It requests:</p>
+  <table>
+    <tr><th>Permission</th><th>Why it is needed</th></tr>
+    <tr><td>Manage your YouTube account<br><code>youtube</code></td><td>To create a live broadcast and stream, start the broadcast, set its privacy (public, unlisted or private), and end it when the match is over.</td></tr>
+    <tr><td>Upload YouTube videos<br><code>youtube.upload</code></td><td>To upload short highlight clips (fours, sixes, wickets) from the match to the same channel.</td></tr>
+  </table>
+  <p>CricStreamr does not read, collect, store on any server, sell or share any other YouTube or Google account data. Sign-in tokens are kept only in the iPhone's secure Keychain. Access can be removed at any time from <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a> or by signing out in the app.</p>
+
+  <h2>Who can use it</h2>
+  <p>CricStreamr is used by AHCC volunteers to stream to the club's YouTube channel. A volunteer may optionally sign in with their own Google account to stream to their own channel instead.</p>
+
+  <h2>Privacy</h2>
+  <p>Read the full <a href="https://ahccvic-netizen.github.io/privacy.html">CricStreamr Privacy Policy</a>.</p>
+
+  <h2>Contact</h2>
+  <p>Avondale Heights Cricket Club — <a href="mailto:ahccvic@gmail.com">ahccvic@gmail.com</a></p>
+
+  <footer>
+    © 2026 Avondale Heights Cricket Club ·
